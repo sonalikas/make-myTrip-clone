@@ -1,0 +1,130 @@
+.nav {
+   background: linear-gradient(to top,  #4169e1 30%,#191970 50%); 
+ height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.navb {
+  color: white;
+  font-size: 20px;
+  margin: 20px 50px 20px 50px;
+}
+
+.icon {
+  margin: 5% 0vh 0vh 15%;
+
+}
+
+.navbar {
+  background-color: white;
+   width: 90%;
+  border-radius: 10px 10px 10px 10px;
+  height: 100%;
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.fa-bars {
+float: right;
+margin-top: -33px;
+}
+
+.icon-bar {
+  width: 80%;
+  background-color: white;
+  overflow: auto;
+  border-radius: 10px 10px 0px 0px;
+ }
+
+.hr-ln {
+  border: 1px dashed white;
+  margin-top: 40px;
+}
+
+.icon-bar a {
+
+  float: left;
+  text-align: center;
+  width: 10%;
+  padding: 6px 0;
+  transition: all 0.3s ease;
+  color: #808080;
+  font-size: 30px;
+
+}
+
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.trip {
+   margin-right: 100%;
+  width: 48%;
+  background-color: white;
+  height: 2vh;
+  border-radius:15px;
+  font-weight: bold;
+  font-color:black;
+  padding-top: 0.5%;
+}
+
+.trip-type p {
+  float: left;
+  font-size: 12px;
+  text-align:center;
+  transition: all 0.3s ease;
+  overflow: auto;
+  font-weight: bolder;
+}
+
+.user {
+  font-weight: bolder;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+
+.form{
+  width: 20%;
+  float: left;
+  color: black;
+  overflow: auto;
+
+}
+
+.add{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 5px #E5E5E5;
+  border-radius: 10px 10px 0px 0px;
+   margin-left: 115px;
+  width: 84%;
+  background-color:white;
+
+ }
+
+.offers{
+  color: #484848;
+  font-size: 30px;
+  width: 10px;
+}
+
+.section{
+  word-spacing: 2em;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+ 
+  content: "";
+  clear: both;
+  display: table;
+}
